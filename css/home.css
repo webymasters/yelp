@@ -1,0 +1,6 @@
+.cover{
+
+    height: 25em;
+    background-image:url("/images/food.jpeg");
+    background-size: cover; 
+}

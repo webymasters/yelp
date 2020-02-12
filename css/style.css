@@ -1,11 +1,12 @@
 :root {
-  --body-bg-color:FDF3FE; 
+  --body-bg-color:#FDF3FE; 
   --sitewidth:60em;
   --themecolor:blueviolet;
 }
 /* Website by Manpreet Singh */
 body{
     background-color: var(--body-bg-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .site{
   max-width:var(--sitewidth);
@@ -14,32 +15,83 @@ body{
   padding-left: 0.5em;
 }
 .header{
-color:white;
-background-color:var(--themecolor);
-display: grid;
-grid-template-columns:50% 50%;
- 
-}
-.toplinks{
-  text-align: left;
-  color: #FDF3FE;
-}
- .toplinks li{
-  display: inline;
-  margin-left: 0.2em;
- 
-}
-.toplogin{
-  text-align: right;
-  color: #FDF3FE;
-  margin-right: 1em;
-}
- .toplogin li{
-  display: inline;
-  margin-right: 1em;
- 
-}
+  color:white;
+  display: grid;
+  grid-template-columns:25% 25% 25% 25%;
+   
+  }
+  .toplinks{
+    text-align: left;
+    color: #FDF3FE;
+    grid-column: 1 / span 2;
+  }
+   .toplinks li{
+    display: inline;
+    margin-left: 0.2em;
+   
+  }
+  .toplogin{
+    text-align: right;
+    color: #FDF3FE;
+    margin-right: 1em;
+    grid-column: 3 / span 2;
+  }
+   .toplogin li{
+    display: inline;
+    margin-right: 1em;
+   
+  }
+  
+  .header a {
+    color:#fff;
+    text-decoration: none;
+  }
+  .header a:hover {
+    color:rgb(127, 20, 160);
+    text-decoration: underline;
+  }
+  .header .button{
+      border-radius: 1em;
+      padding: 0.5em;
+      border: 2px solid #fff ; 
+  }
+  header .button:hover {
+    background-color:var(--themecolor); /* Green */
+    color: white;
+  }
 
-.header a {
-  color:#fff;
-}
+  .logo {
+    grid-column: 1 / span 4;
+    text-align: center;
+  }
+  .searchname {
+    grid-column: 1 / span 2;
+    text-align: right;
+  
+    
+  }
+  .searchbox {
+    border: 2px solid var(--themecolor);
+    border-radius: 4px;
+    display: inline-block;
+    background-color: var(--body-bg-color);
+    color: black;
+  }
+  .searchlocation {
+    grid-column: 3 / span 2;
+    text-align: left;
+  
+  }
+  .searchname li{
+    display: inline;
+    padding: 0.5em;
+   
+  }
+  .searchlocation li{
+    display: inline;  
+    padding: 0.5em; 
+  }
+  input[type=text] {
+    background-color: var(--body-bg-color);
+    line-height: 2em;
+  }

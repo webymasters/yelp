@@ -1,6 +1,6 @@
 :root {
   --body-bg-color:#FDF3FE; 
-  --sitewidth:100em;
+  --sitewidth:80em;
   --themecolor:blueviolet;
 }
 /* Website by Manpreet Singh */
@@ -139,4 +139,29 @@ body{
       grid-column: 1 / span 2;
       text-align: center;
   }    
+}
+
+.footer{
+  background-color: var(--themecolor);
+  margin-top: 2em;
+  padding: 1em;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.socialmedia li{
+  display: inline;
+}
+
+.footerlinks{
+  text-align: right;
+}
+.footerlinks li {
+  display: inline;
+}
+
+.copyrights {
+ grid-column: 1 /span 2;
+ text-align: center;
 }

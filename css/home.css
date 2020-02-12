@@ -1,6 +1,52 @@
+:root {
+    --body-bg-color:#FDF3FE; 
+    --sitewidth:80em;
+    --themecolor:blueviolet;
+    --containerwidth:70em;
+  }
+  /* Website by Manpreet Singh */
+
 .cover{
 
     height: 25em;
     background-image:url("/images/food.jpeg");
     background-size: cover; 
+}
+
+.homemain{
+
+  background-color: white;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+.latest{
+    text-align: center;
+    color: var(--themecolor);
+    grid-column: 1 / span 3;
+    padding: 0.2em;
+}
+
+.listings {
+    border: 2px solid var(--themecolor);
+    background-color: rgb(253, 197, 253);
+   
+}
+.listingimage{
+    width: 100%;
+} 
+.listingtitle{
+    padding: 0.5em;
+}
+.listingreview{
+    padding: 0.5em;
+}
+.listingcategories{
+    padding: 0.5em;
+}
+.listingopening{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }

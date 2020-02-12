@@ -1,12 +1,45 @@
+:root {
+  --body-bg-color:FDF3FE; 
+  --sitewidth:60em;
+  --themecolor:blueviolet;
+}
+/* Website by Manpreet Singh */
 body{
-    background-color: #FDF3FE;
+    background-color: var(--body-bg-color);
 }
 .site{
-  max-width:60em;
-  background-color: blueviolet;
+  max-width:var(--sitewidth);
+
   margin: auto;
-  padding-left: 1em;
-
-
+  padding-left: 0.5em;
+}
+.header{
+color:white;
+background-color:var(--themecolor);
+display: grid;
+grid-template-columns:50% 50%;
+ 
+}
+.toplinks{
+  text-align: left;
+  color: #FDF3FE;
+}
+ .toplinks li{
+  display: inline;
+  margin-left: 0.2em;
+ 
+}
+.toplogin{
+  text-align: right;
+  color: #FDF3FE;
+  margin-right: 1em;
+}
+ .toplogin li{
+  display: inline;
+  margin-right: 1em;
+ 
 }
 
+.header a {
+  color:#fff;
+}

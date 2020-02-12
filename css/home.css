@@ -1,7 +1,7 @@
 :root {
     --body-bg-color:#FDF3FE; 
     --sitewidth:80em;
-    --themecolor:blueviolet;
+    --themecolor:rebeccapurple;
     --containerwidth:70em;
   }
   /* Website by Manpreet Singh */
@@ -18,7 +18,9 @@
   background-color: white;
   display: grid;
   grid-template-columns:1fr 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 1em ;
+  padding: 1em;
+  margin-top: 1em;
 }
 .latest{
     text-align: center;
@@ -29,7 +31,7 @@
 
 .listings {
     border: 2px solid var(--themecolor);
-    background-color: rgb(253, 197, 253);
+    background-color: rgb(248, 215, 248);
    
 }
 .listingimage{
@@ -50,3 +52,20 @@
     text-align: center;
     padding: 0.5em;
 }
+
+@media screen and (max-width:50em)
+{
+    .homemain{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns:1fr ;
+        grid-gap: 1em ;
+        padding: 1em;
+      }
+      .latest{
+        text-align: center;
+        color: var(--themecolor);
+        grid-column: 1 / span 1;
+        padding: 0.2em;
+    }

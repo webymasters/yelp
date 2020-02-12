@@ -1,7 +1,8 @@
 :root {
   --body-bg-color:#FDF3FE; 
   --sitewidth:80em;
-  --themecolor:blueviolet;
+  --themecolor:rebeccapurple;
+  --containerwidth:70em;
 }
 /* Website by Manpreet Singh */
 body{

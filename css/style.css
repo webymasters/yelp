@@ -7,7 +7,7 @@
 /* Website by Manpreet Singh */
 body{
     background-color: var(--body-bg-color);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .site{
   max-width:var(--sitewidth);

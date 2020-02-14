@@ -95,6 +95,7 @@ body{
   input[type=text] {
     background-color: var(--body-bg-color);
     line-height: 2em;
+    border: 0px;
   }
 
   @media screen and (max-width:50em)
@@ -140,6 +141,13 @@ body{
       grid-column: 1 / span 2;
       text-align: center;
   }    
+
+  input[type=text] {
+
+    background-color: var(--body-bg-color);
+    text-align: left;
+    width:30em;
+  }
 }
 
 .footer{

@@ -1,7 +1,8 @@
+
 :root {
-    --body-bg-color:#FDF3FE; 
+    --body-bg-color:rgb(238, 238, 238); 
     --sitewidth:80em;
-    --themecolor:rebeccapurple;
+    --themecolor:#D89E00;;
     --containerwidth:70em;
   }
   /* Website by Manpreet Singh */
@@ -20,7 +21,7 @@
   grid-template-columns:1fr 1fr 1fr;
   grid-gap: 1em ;
   padding: 1em;
-  margin-top: 1em;
+  margin-top: -5em;
 }
 .latest{
     text-align: center;
@@ -30,10 +31,16 @@
 }
 
 .listings {
-    border: 2px solid var(--themecolor);
-    background-color: rgb(248, 215, 248);
+    /*border: 2px solid var(--themecolor);*/
+    /*background-color: rgb(248, 215, 248);*/
+    background-color: #ffffff;
+
+    border: 1px solid #f09423;
+
    
 }
+
+
 .listingimage{
     width: 100%;
 } 
@@ -47,10 +54,27 @@
     padding: 0.5em;
 }
 .listingopening{
-    background-color: rebeccapurple;
+    /*background-color: rebeccapurple;*/
+    background-color:#f09423;;
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+
+
+/***/
+
+a{
+    color: #f09423;
+    text-decoration: none;
+}
+a:hover{
+color:black;
+}
+
+
+h3{
+font-weight: normal;
 }
 
 @media screen and (max-width:50em)
@@ -69,3 +93,10 @@
         grid-column: 1 / span 1;
         padding: 0.2em;
     }
+
+}
+
+
+
+
+

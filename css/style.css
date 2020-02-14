@@ -1,5 +1,5 @@
 :root {
-  --body-bg-color:#FDF3FE; 
+  --body-bg-color:##FFFCF0; 
   --sitewidth:80em;
   --themecolor:rebeccapurple;
   --containerwidth:70em;
@@ -48,7 +48,7 @@ body{
     text-decoration: none;
   }
   .header a:hover {
-    color:rgb(127, 20, 160);
+    color:var(--themecolor);
     text-decoration: underline;
   }
   .header .button{

@@ -94,10 +94,10 @@ body{
   }
   input[type=text] {
     background-color: var(--body-bg-color);
-    line-height: 4em;
+    line-height: 3em;
     border: 0px;
-    height: 4em;
-    size:4em
+    height: 3em;
+
   }
 
   @media screen and (max-width:50em)
@@ -147,9 +147,9 @@ body{
   input[type=text] {
 
     background-color: var(--body-bg-color);
-    text-align: left;
-    width:30em;
-    font-size: 2em;
+    line-height: 2em;
+    border: 2px;
+    height:2em;
     
   }
 }

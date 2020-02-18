@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yelp Homepage</title>
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/home.css">
 </head>
@@ -32,15 +33,30 @@
       </section> 
       <section class="searchname">
       <div class="searchbox"> 
-        <li> Find</li><li> <input type=text size=35em></li>
+        <li> Find</li><li> <input type=text size=35em name="SearchKeyword"></li>
       </div>
       </section> 
       <section class="searchlocation">
         <div class="searchbox"> 
-          <li>Near</li><li> <input type=text size=35em ></li>
+          <li>Near</li><li> <input type=text size=35em name="SearchPlace"></li>
         </div>
       </section> 
-      
+      <div class="maincats">
+        <ul>
+            <li>
+              <img src="/images/rest.png">
+              Restaurants</li>
+            <li><img src="/images/night.png">
+              Nightlife</li>
+            <li>
+              <img src="/images/shopping.png">
+              Shopping</li>
+            <li>
+              <img src="/images/more.png">
+              More</li>
+
+        </ul>
+      </div>
     </header> 
      
 
@@ -61,11 +77,31 @@
         </a>    
       </section>  
       <section class="listingreview">
-        X X X X X    
+       <ul> 
+      <li>
+       <img src="/images/star.png" width=10%>  
+      </li> 
+      <li>
+       <img src="/images/star.png" width=10%>  
+      </li> 
+      <li>
+        <img src="/images/star.png" width=10%>  
+       </li> 
+       <li>
+        <img src="/images/star.png" width=10%>  
+       </li> 
+       <li>
+        <img src="/images/star.png" width=10%>  
+       </li> 
+       <li>
+        21 people reviewed 
+       </li> 
+      </ul> 
+         
       </section>  
 
       <section class="listingcategories">
-        Desserts,Cakes    
+        <a href="">Desserts</a>,<a href="#">Cakes</a>    
       </section>  
       <section class="listingopening">
         Opened 5 Days ago     
@@ -181,11 +217,82 @@
         Opened 5 Days ago     
       </section>  
     </article>    
+    <h2 class="latest">What's Hot in Toronto</h2> 
+    <article class="listings">
+      <section class="listingimage">
+      <a href="#">
+      <img src="/images/dessert.jpeg" width=100%>       
+      </a>  
+      </section>  
+      <section class="listingtitle">
+        <a href="#">
+        <h3>Dessert Place</h3>  
+        </a>    
+      </section>  
+      <section class="listingreview">
+        X X X X X    
+      </section>  
+
+      <section class="listingcategories">
+        Desserts,Cakes    
+      </section>  
+      <section class="listingopening">
+        Opened 5 Days ago     
+      </section>  
+    </article>   
+    <article class="listings">
+      <section class="listingimage">
+      <a href="#">
+      <img src="/images/dessert.jpeg" width=100%>       
+      </a>  
+      </section>  
+      <section class="listingtitle">
+        <a href="#">
+        <h3>Dessert Place</h3>  
+        </a>    
+      </section>  
+      <section class="listingreview">
+        X X X X X    
+      </section>  
+
+      <section class="listingcategories">
+        Desserts,Cakes    
+      </section>  
+      <section class="listingopening">
+        Opened 5 Days ago     
+      </section>  
+    </article>   
+    <article class="listings">
+      <section class="listingimage">
+      <a href="#">
+      <img src="/images/dessert.jpeg" width=100%>       
+      </a>  
+      </section>  
+      <section class="listingtitle">
+        <a href="#">
+        <h3>Dessert Place</h3>  
+        </a>    
+      </section>  
+      <section class="listingreview">
+        X X X X X    
+      </section>  
+
+      <section class="listingcategories">
+        Desserts,Cakes    
+      </section>  
+      <section class="listingopening">
+        Opened 5 Days ago     
+      </section>  
+    </article>   
+
+   
     </main>
     
 <section class="footer">
    <section class="socialmedia">
-     Fb | Insta | Twitter 
+     <li>Fb </li>
+     <li>Insta </li>
+     <li>Twitter </li>
    </section>
   <section class="footerlinks">
     Privacy Policy | Terms | Contact

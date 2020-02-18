@@ -1,0 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+input,button {
+    font-family: inherit;
+    font-size: inherit;
+}

@@ -92,6 +92,18 @@ body{
     display: inline;  
     padding: 0.5em; 
   }
+   .button {
+    
+  
+    line-height: 2;
+    padding: 0 0.5em;
+    border: none;
+  }
+   .button img {
+    height: 1.5em;
+    vertical-align: middle;
+
+  }
   input[type=text] {
     background-color: var(--body-bg-color);
     line-height: 3em;

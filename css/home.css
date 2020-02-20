@@ -60,7 +60,7 @@
 .listings {
 
     background-color:#FCF6DB;
-    padding: 0;
+    padding: 1;
     border: 1px solid var(--themecolor);
     box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
     border-radius: 0.25em;
@@ -72,10 +72,14 @@
     width: 100%;
 } 
 .listingtitle{
-    padding: 0.5em;
+    padding: 0 0 0 0.5em;
+}
+.listingtitle a {
+    color: black;
+    font-size: 1.5em;
 }
 .listingreview{
-    padding: 0.2em;
+    padding: 0 0.5em 0 0.5em;
     
 }
 .listingreview li{
@@ -92,7 +96,7 @@
     padding: 0em;
 }
 .listingcategories{
-    padding: 0.5em;
+    padding:0 0 0 0.5em;
 }
 .listingbar{
     /*background-color: rebeccapurple;*/
@@ -109,9 +113,11 @@
 a{
     color: var(--themecolor);
     text-decoration: none;
+
 }
 a:hover{
 color:black;
+
 }
 
 

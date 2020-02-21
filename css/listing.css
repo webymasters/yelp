@@ -230,15 +230,7 @@
 
     }
 
-    input[type=text]
-    {
-        background-color:var(--themecolor);
-        color: aliceblue;
-
-    }
-    ::placeholder {
-        color: var(--body-bg-color);
-    } 
+ 
 
 
 }

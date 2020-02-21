@@ -18,39 +18,20 @@
     border-radius: 0.25em;
   }
 
-  .listviewcats{
-      
-  }
-
-  .listviewcats li {
-    display: inline;
-  }
-  
-  .toplinks{
-    text-align: left;
- 
-  }
-   .toplinks li{
-    display: inline;
-    margin-left: 0.2em;
-   
-  }
-  .toplogin{
-    text-align: right;
-    color:var(--themecolor);
-    margin-right: 1em;
-  
-  }
-   .toplogin li{
-    display: inline;
-    margin-right: 1em;
-   
-  }
   
   .button {
       background-color: var(--themecolor);
      
   }
+
+  .header {
+      display:grid;
+      grid-template-columns:1fr 4fr 3fr  2fr;
+      grid-template-areas: 
+       "logo searchbar searchbar links";
+       }
+
+ 
   .header .button a {
     color:var(--body-bg-color);
     text-decoration: none;
@@ -69,35 +50,60 @@
     background-color:var(--themecolor); /* Green */
 
   }
+  .toplogin{
+    text-align: right;
+    color:var(--themecolor);
+    
+    grid-area: links;
+
+  
+  }
+   .toplogin li{
+    display: inline;
+ 
+   
+  }
 
   .logo {
     text-align: right;
     padding: 1em;
+    grid-area: logo;
 
   }
 
   .searchbar {
     display: flex;
-    grid-column:2 / span 2;  
+     
      justify-content: left;
     flex-wrap: wrap;
     padding: 2em;
+    grid-area: searchbar;
     
      
  }
+
+ .listviewcats  {
+    padding: 0 1em 1em 0;
+  
+  }
+.listviewcats li {
+  display: inline;
+
+}
 
  .listview {
  grid-column: 1 / span 3;
  
  }
- .listview
+ .listtopview
  {
-     display: flgridex;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
  }
 
  .listview h1 {
     color: black;
-    padding: 0 0 0 0.5em;
+    padding: 0 0 0 0.2em;
     margin-bottom: -0.5em;
  }
 
@@ -153,3 +159,87 @@
        width:100%;
        height:5em;
    }
+
+   .content {
+      
+       padding: 0.1em;
+     
+   }
+   .review {
+   background-color: var(--body-bg-color);
+   box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+   padding: 1em;
+   display: grid;
+  grid-template-columns:1fr 9fr ;
+  grid-template-areas: 
+   "avatar ratings"
+   "name ratings"
+   "content content";
+   }
+    .avatar {
+        grid-area: avatar;
+       
+        
+    }
+
+    .content {
+        grid-area: content;
+    }
+    .name {
+        grid-area: name;
+        margin-top:-1em;
+        
+    }
+    .ratings {
+        grid-area: ratings;
+        
+    }
+   .avatar img{
+       width: 3em;
+   }
+
+
+
+   @media screen and (max-width:50em)
+{
+    .listmain{
+
+        background-color: white;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-gap: 1em ;
+        padding: 1em;
+       
+      }
+      .listingsheading{
+      
+        color: var(--themecolor);
+        grid-column: 1 / span 1;
+       
+    }
+    .listingimage img{
+        height: 20em;
+      
+    } 
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em ;
+        padding: 1em;
+
+    }
+
+    input[type=text]
+    {
+        background-color:var(--themecolor);
+        color: aliceblue;
+
+    }
+    ::placeholder {
+        color: var(--body-bg-color);
+    } 
+
+
+}
+

@@ -21,112 +21,142 @@ body{
   grid-template-columns:1fr 1fr 1fr 1fr;
    
   }
-  .toplinks{
-    text-align: left;
-    color: #FDF3FE;
-    grid-column: 1 / span 2;
-  }
-   .toplinks li{
-    display: inline;
-    margin-left: 0.2em;
-   
-  }
-  .toplogin{
-    text-align: right;
-    color: #FDF3FE;
-    margin-right: 1em;
-    grid-column: 3 / span 2;
-  }
-   .toplogin li{
-    display: inline;
-    margin-right: 1em;
-   
-  }
+
+
   
-  .header a {
-    color:#fff;
-    text-decoration: none;
-  }
-  .header a:hover {
-    color:burlywood;
-    text-decoration: none;
-  }
-  .header .button{
-      border-radius: 1em;
-      padding: 0.5em;
-      border: 2px solid #fff ; 
+ .searchname {
 
-  }
-  header .button:hover {
-    background-color:var(--themecolor); /* Green */
-
-  }
-
-  .logo {
-    grid-column: 1 / span 4;
-    text-align: center;
-  }
-
-  .searchbar {
-     display: flex;
-     grid-column:1 / span 4;  
-      justify-content: center;
-     flex-wrap: wrap;
-      
-  }
-  .searchname {
-
-    text-align: right;
-  
-    
-  }
-  .searchbox {
-    border: 2px solid var(--themecolor);
-    border-radius: 4px;
-    display: inline-block;
-    background-color: var(--body-bg-color);
-    color: black;
-    padding: 0 0 0 1em;
-  }
-  .searchlocation {
-
-    text-align: left;
-  
-  }
-  .searchname li{
-    display: inline;
-    padding: 0.5em;
-   
-  }
-  .searchlocation li{
-    display: inline;  
-    padding: 0.5em; 
-  }
-   .searchbutton {
-    line-height: 2;
-    padding: 0.5em 0em 0em 0.5em;
-    border: none;
-    vertical-align:text-bottom;
-
-    
-  }
-   .searchbutton  img {
-    height: 2em;
-   
-  }
-  .searchbutton a:hover img {
-    background-color:tan;
-    border-radius: 1em;
+   text-align: right;
  
-  }
+   
+ }
+ .searchbox {
+   border: 2px solid var(--themecolor);
+   border-radius: 4px;
+   display: inline-block;
+   background-color: var(--body-bg-color);
+   color: black;
+   padding: 0 0 0 1em;
+ }
+ .searchlocation {
 
-  input[type=text] {
-    background-color: var(--body-bg-color);
-    line-height: 3em;
-    border: 0px;
-    height: 3em;
+   text-align: left;
+ 
+ }
+ .searchname li{
+   display: inline;
+   padding: 0.5em;
+  
+ }
+ .searchlocation li{
+   display: inline;  
+   padding: 0.5em; 
+ }
+  .searchbutton {
+   line-height: 2;
+   padding: 0.5em 0em 0em 0.5em;
+   border: none;
+   vertical-align:text-bottom;
 
-  }
+   
+ }
+  .searchbutton  img {
+   height: 2em;
+  
+ }
+ .searchbutton a:hover img {
+   background-color:tan;
+   border-radius: 1em;
+
+ }
+
+ input[type=text] {
+   background-color: var(--body-bg-color);
+   line-height: 3em;
+   border: 0px;
+   height: 3em;
+
+ }
+ .listingsheading{
+  text-align: center;
+  color: var(--themecolor);
+  grid-column: 1 / span 3;
+  padding: 0.2em;
+}
+
+.listingsheading img {
+  height:1.5em;
+  vertical-align: text-bottom;
+  
+}
+
+
+.listings {
+
+  background-color:#FCF6DB;
+  padding: 1;
+  border: 1px solid var(--themecolor);
+  box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+  border-radius: 0.25em;
+  display: grid;
+}
+
+
+
+.listingimage img{
+  height: 15em;
+  width: 100%;
+
+} 
+
+.listingtitle{
+  padding: 0 0 0 0.5em;
+}
+.listingtitle a {
+  color: black;
+  font-size: 1.5em;
+}
+.listingreview{
+  padding: 0 0.5em 0 0.5em;
+  
+}
+
+.listingreview img {
+  width:2em;
+}
+.listingreview li{
+  display: inline;
+      
+}
+
+
+
+.listingbar{
+  /*background-color: rebeccapurple;*/
+  background-color:var(--themecolor);;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  align-self: end;
+}
+
+
+/***/
+
+a{
+  color: var(--themecolor);
+  text-decoration: none;
+
+}
+a:hover{
+color:black;
+
+}
+
+
+h3{
+font-weight: normal;
+}
 
   @media screen and (max-width:50em)
 {

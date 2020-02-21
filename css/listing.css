@@ -1,0 +1,155 @@
+
+:root {
+    --body-bg-color:#FFFCF0; 
+    --sitewidth:80em;
+    --themecolor:#B28200;;
+    --containerwidth:70em;
+  }
+  /* Website by Manpreet Singh */
+
+  .listmain{
+
+    background-color: white;
+    display: grid;
+    grid-template-columns:1;
+    grid-gap: 1em ;
+    padding: 1em;
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+    border-radius: 0.25em;
+  }
+
+  .listviewcats{
+      
+  }
+
+  .listviewcats li {
+    display: inline;
+  }
+  
+  .toplinks{
+    text-align: left;
+ 
+  }
+   .toplinks li{
+    display: inline;
+    margin-left: 0.2em;
+   
+  }
+  .toplogin{
+    text-align: right;
+    color:var(--themecolor);
+    margin-right: 1em;
+  
+  }
+   .toplogin li{
+    display: inline;
+    margin-right: 1em;
+   
+  }
+  
+  .button {
+      background-color: var(--themecolor);
+     
+  }
+  .header .button a {
+    color:var(--body-bg-color);
+    text-decoration: none;
+  }
+  .header a:hover {
+    color:burlywood;
+    text-decoration: none;
+  }
+  .header .button{
+      border-radius: 1em;
+      padding: 0.5em;
+      border: 2px solid #fff ; 
+
+  }
+  header .button:hover {
+    background-color:var(--themecolor); /* Green */
+
+  }
+
+  .logo {
+    text-align: right;
+    padding: 1em;
+
+  }
+
+  .searchbar {
+    display: flex;
+    grid-column:2 / span 2;  
+     justify-content: left;
+    flex-wrap: wrap;
+    padding: 2em;
+    
+     
+ }
+
+ .listview {
+ grid-column: 1 / span 3;
+ 
+ }
+ .listview
+ {
+     display: flgridex;
+ }
+
+ .listview h1 {
+    color: black;
+    padding: 0 0 0 0.5em;
+    margin-bottom: -0.5em;
+ }
+
+ .listview .cover img {
+    width:100%;
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+ }
+
+ .checkinbtn {
+
+    background-color: var(--themecolor);
+    border-radius: 0.5em;
+    color: white;
+    margin-top: 0.2em;
+    padding: 0.5em;
+ }
+
+ .reviewtext {
+    text-align: left;
+    font-size:0.7em;
+  
+  }
+  .listingreview ul{
+  
+    padding: 0em;
+  }
+  .listingcategories{
+    padding:0 0 0.5em 0.5em;
+  }
+
+  .info th,td {
+
+    text-align: center;
+    color: var(--themecolor);
+    background-color: var(--body-bg-color);
+    padding: 0.5em;
+  }
+
+  .listviewbtns li {
+      display: inline;
+      padding: 2em 0 0 0;
+  }
+
+  .listingbar a {
+   color: var(--body-bg-color);
+  }
+
+  .listingbar a:hover {
+    color: black;
+   }
+
+   .reviews textarea{
+       width:100%;
+       height:5em;
+   }

@@ -1,14 +1,319 @@
+
 <!DOCTYPE html>
+<!-- Website by Manpreet Singh -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yelp Homepage</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/listing.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/listing.css">
 </head>
 <body>
-    <h1>Listing  Page</h1>
+  
+    <div class="cover">
+     <header class="header">
+      <section class="logo">
+        <a href="index.html"><img src="images/yelplogo.png" width=200px></a> 
+      </section> 
+      <section class="searchbar">
+      <section class="searchname">
+      <div class="searchbox"> 
+       <input type=text size=35em name="SearchKeyword" placeholder="What you are looking for">
+      </div>
+      </section> 
+      <section class="searchlocation">
+        <div class="searchbox"> 
+        <input type=text size=35em name="SearchPlace" placeholder="At What Place">
+        </div>
+      </section>
+      <div class="searchbutton">
+       <a href="#"> <img src="images/searchico.png" alt=""> </a>
+      </div> 
+    </section>
+    <nav class="toplogin">
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li class="button"><a href="#">Signup</a></li>
+        </ul>
+      </nav>   
+    </header> 
+    </div> 
+
+    <div class="container"> <!-- top to the cover-->
+    <main class="listmain">
+      <div class="listview">
+        <div class="cover">
+            <img src="images/listings/7.jpeg">
+        </div>
+
+       <div class="listinginfo">
+       <section class="header">
+       <h1>Sunny Cafe</h1> 
+       </section>
+       <section class="listingreview">
+        <ul> 
+          <li>
+           <img src="/images/star.png" width=10%>  
+          </li> 
+          <li>
+           <img src="/images/star.png" width=10%>  
+          </li> 
+          <li>
+           <img src="/images/star.png" width=10%>  
+          </li> 
+          <li>
+           <img src="/images/star.png" width=10%>  
+          </li> 
+          <li>
+           <img src="/images/star.png" width=10%>  
+          </li> 
+          <li class="reviewtext">
+            <p >721 people reviewed.<br/><a href="#">Write a review</a> </p>
+          </li> 
+         </ul> 
+        </section>  
+        <section class="listviewcats">
+          <li><a href="">#dietfood</a> </li><li><a href="#">#cafes</a></li>
+        </section>  
+        <section class="listviewbtns">
+            <li><input type=submit value="Check-in" class="checkinbtn"></li>
+            <li><input type=submit value="Add Photos" class="checkinbtn"></li>
+            <li><input type=submit value="share" class="checkinbtn"></li>
+        </section>   
+        
+        </div>
+        <section class="information">
+             <table class="info">
+                 <tr><th colspan=2>Menu</th></tr>
+                 <tr><th>Website</th> <td><a href="http://sunnycafe.com">sunnycafe.com</a></td></tr>
+                 <tr><th>Phone No</th> <td><a href="tel:4373453803">+1 437 345 3803</a></td></tr>
+                 <tr><th>Address</th> <td>SCO 107,Toronto,ON</td></tr>
+                 <tr><th colspan=2><a href="#"> Open Directions</a> </tr>
+             </table>
+            
+        </section>
+        
+        <section class="content">
+            <p>
+             Enjoy Great Coffee & The Internet At Your Fingertips. Visit A Local Starbucks®. All Your Favourites. Handcrafted Recipes. Try Our Delicious Treats. Mornings Made Easier. New Cascara Latte. Breakfast at Starbucks®. Perfect Cup Every Time. Categories: Drinks, Food.
+            </p>
+
+        </section>
+
+        <section class="reviews"  id="#reviews">
+          <div 
+
+
+
+         <h2>Write a review</h2>
+            <textarea></textarea>
+        
+        </section>
+ 
+      </div>
+   
+    <!-- Single Listing Box Ends  -->
+    <!-- Listings Heading  -->
+    <h2 class="listingbar listingsheading">More <a href="index.html">#cafes</a></h2>  
+    <!-- Single Listing Box Begins  -->
+    <article class="listings">
+      <section class="listingimage">
+      <a href="#">
+      <img src="images/listings/7.jpeg" width=100%>       
+      </a>  
+      </section>  
+      <section class="listingtitle">
+        <a href="#">
+        <h3>Healthy Wealthy Cafe</h3>  
+        </a>    
+      </section>  
+      <section class="listingreview">
+       <ul> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li >
+           <p class="reviewtext">721 people reviewed </p>
+         </li> 
+        </ul> 
+       </section>  
+       <section class="listingcategories">
+         <a href="">#dietfood</a> <a href="#">#cafes</a>    
+       </section>  
+
+       <section class="listingbar">
+        1304 People Checked-in this week  
+       </section>  
+    </article>    
+    <!-- Single Listing Box Ends  -->
+    <!-- Single Listing Box Begins  -->
+    <article class="listings">
+      <section class="listingimage">
+      <a href="#">
+      <img src="images/listings/8.jpeg" width=100%>       
+      </a>  
+      </section>  
+      <section class="listingtitle">
+        <a href="#">
+        <h3>The Open Cafe</h3>  
+        </a>    
+      </section>  
+      <section class="listingreview">
+       <ul> 
+         <li>
+          <img src="/images/star.png" >  
+         </li> 
+         <li>
+          <img src="/images/star.png">  
+         </li> 
+         <li>
+          <img src="/images/star.png">  
+         </li> 
+         <li>
+          <img src="/images/star.png">  
+         </li> 
+         <li>
+          <img src="/images/star.png">  
+         </li> 
+         <li >
+           <p class="reviewtext">571 people reviewed </p>
+         </li> 
+        </ul> 
+       </section>  
+       <section class="listingcategories">
+         <a href="">#bars</a> <a href="#">#pubs</a>    
+       </section>  
+       <section class="listingbar">
+        876 People Checked-in this week    
+       </section>  
+    </article>    
+    <!-- Single Listing Box Ends  -->
+    <!-- Single Listing Box Begins  -->
+    <article class="listings">
+      <section class="listingimage">
+      <a href="#">
+      <img src="images/listings/9.jpeg">       
+      </a>  
+      </section>  
+      <section class="listingtitle">
+        <a href="#">
+        <h3>Geeks Cafe</h3>  
+        </a>    
+      </section>  
+      <section class="listingreview">
+       <ul> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li>
+          <img src="/images/star.png" width=10%>  
+         </li> 
+         <li >
+           <p class="reviewtext">491 people reviewed </p>
+         </li> 
+        </ul> 
+       </section>  
+       <section class="listingcategories">
+         <a href="">#cafes</a> <a href="#">#coffeeshops</a>    
+       </section>  
+       <section class="listingbar">
+        578 People Checked-in this week     
+       </section>  
+    </article>    
+    <!-- Single Listing Box Ends  -->
+
+   
+    </main>
+</div>
+<section class="footer">
+   <div></div> 
+   <section class="socialmedia">
+     <li><a href="#"> <img src="/images/fb.png"> </a> </li>
+     <li><a href="#"> <img src="/images/insta.png"> </a> </li>
+     <li><a href="#"> <img src="/images/twitter.png"> </a> </li>
+   </section>
+  <section class="footerlinks">
+    <li><a href="#">Privacy Policy</a> |  <li><a href="#"> Terms </a>|  <li><a href="#"> Contact </a>
+  </section>
+  <div></div> 
+  <section class="copyrights">
+    <img src="/images/foot.png"><br/>
+    <em>All Copyrights Reserved By Yelp 2012-2020</em>
+  </section>
+ 
+</section>
+
+ 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Website by Manpreet Singh -->

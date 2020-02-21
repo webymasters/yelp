@@ -14,31 +14,52 @@
     background-image: url("/images/cvrvid.gif");
     background-size: cover; 
 }
+.toplinks{
+    text-align: left;
+    color: #FDF3FE;
+    grid-column: 1 / span 2;
+  }
+   .toplinks li{
+    display: inline;
+    margin-left: 0.2em;
+   
+  }
+  .toplogin{
+    text-align: right;
+    color: #FDF3FE;
+    margin-right: 1em;
+    grid-column: 3 / span 2;
+  }
+   .toplogin li{
+    display: inline;
+    margin-right: 1em;
+   
+  }
+  
+  .header a {
+    color:#fff;
+    text-decoration: none;
+  }
+  .header a:hover {
+    color:burlywood;
+    text-decoration: none;
+  }
+  .header .button{
+      border-radius: 1em;
+      padding: 0.5em;
+      border: 2px solid #fff ; 
 
-.homemain{
+  }
+  header .button:hover {
+    background-color:var(--themecolor); /* Green */
 
-  background-color: white;
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-gap: 1em ;
-  padding: 1em;
-  margin-top: -5em;
-  box-shadow: 0 0 1em rgba(0,0,0,0.2);
-  border-radius: 0.25em;
-}
-.listingsheading{
+  }
+
+  .logo {
+    grid-column: 1 / span 4;
     text-align: center;
-    color: var(--themecolor);
-    grid-column: 1 / span 3;
-    padding: 0.2em;
-}
-
-.listingsheading img {
-    height:1.5em;
-    vertical-align: text-bottom;
-    
-}
-.maincats{
+  }
+  .maincats{
     text-align: center;
     color: var(--themecolor);
     grid-column: 1 / span 4;
@@ -62,85 +83,37 @@
 .maincats img{
     display: block;
 }
+.homemain{
 
-.listings {
-
-    background-color:#FCF6DB;
-    padding: 1;
-    border: 1px solid var(--themecolor);
-    box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
-    border-radius: 0.25em;
-    display: grid;
+  background-color: white;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap: 1em ;
+  padding: 1em;
+  margin-top: -5em;
+  box-shadow: 0 0 1em rgba(0,0,0,0.2);
+  border-radius: 0.25em;
 }
 
-
-
-.listingimage img{
-    height: 15em;
-    width: 100%;
-  
-} 
-
-.listingtitle{
-    padding: 0 0 0 0.5em;
-}
-.listingtitle a {
-    color: black;
-    font-size: 1.5em;
-}
-.listingreview{
-    padding: 0 0.5em 0 0.5em;
-    
-}
-
-.listingreview img {
-    width:2em;
-}
-.listingreview li{
-    display: inline;
-        
-}
-.reviewtext {
+.searchbar {
+    display: flex;
+    grid-column:1 / span 4;  
+     justify-content: center;
+    flex-wrap: wrap;
+     
+ }
+ .reviewtext {
     text-align: right;
     font-size:0.7em;
-
-}
-.listingreview ul{
-
+  
+  }
+  .listingreview ul{
+  
     padding: 0em;
-}
-.listingcategories{
+  }
+  .listingcategories{
     padding:0 0 0.5em 0.5em;
-}
-
-
-.listingbar{
-    /*background-color: rebeccapurple;*/
-    background-color:var(--themecolor);;
-    color: white;
-    text-align: center;
-    padding: 0.5em;
-    align-self: end;
-}
-
-
-/***/
-
-a{
-    color: var(--themecolor);
-    text-decoration: none;
-
-}
-a:hover{
-color:black;
-
-}
-
-
-h3{
-font-weight: normal;
-}
-
+  }
 @media screen and (max-width:50em)
 {
     .homemain{

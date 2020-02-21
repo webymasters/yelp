@@ -22,7 +22,7 @@ body{
    
   }
 
-
+/* Search Area CSS Begins */
 .searchname {
 
    text-align: right;
@@ -75,6 +75,9 @@ input[type=text] {
    height: 3em;
 
  }
+/* Search Area CSS Ends */
+
+
 .listingsheading{
   text-align: center;
   color: var(--themecolor);
@@ -176,86 +179,7 @@ h3{
 font-weight: normal;
 }
 
-
-
-@media screen and (max-width:50em)
-{
-  .header{
-    color:white;
-    display: grid;
-    grid-template-columns:1fr 1fr;
-   
-     
-    }
-    .toplinks{
-      text-align: left;
-      color: #FDF3FE;
-      grid-column: 1 / span 1;
-    }
-     .toplinks li{
-      display: inline;
-      margin-left: 0.2em;
-     
-    }
-    .toplogin{
-      text-align: right;
-      color: #FDF3FE;
-      margin-right: 1em;
-      grid-column: 2 / span 1;
-    }
-
-  .searchbar {
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-
-     
- }
- .searchbox{
-  background-color: transparent;
-  text-align: center;
-  border: transparent;
-  color: #FDF3FE;
-
-
-}
-.searchname {
-
-text-align: center;
-padding: 1em 0 0 1em;
-align-items: stretch;
-
-}
-.searchlocation {
-  flex-grow: 1;
-  padding: 1em 0 0 1em;
-  text-align: center;
-}    
-
-input[type=text] {
-
-background-color: var(--body-bg-color);
-line-height: 2em;
-border: 2px;
-padding: 0.5em;
-height:2em;
-
-}
-.searchbutton{
-  padding: 1em 0 0 1em;
-  text-align: center;
-}
-input[type=text]
-{
-    background-color:var(--themecolor);
-    color: aliceblue;
-
-}
-::placeholder {
-    color: var(--body-bg-color);
-} 
-
-}
+/* Footer CSS */
 
 .footer{
   background-color: var(--themecolor);
@@ -290,5 +214,74 @@ input[type=text]
 .copyrights {
  grid-column: 1 /span 4;
  text-align: center;
+}
+
+
+/* CSS For Mobile */
+@media screen and (max-width:50em)
+{
+  .header{
+    color:white;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+   
+     
+  }
+  .toplinks{
+      text-align: left;
+      color: #FDF3FE;
+      grid-column: 1 / span 1;
+  }
+  .toplinks li{
+      display: inline;
+      margin-left: 0.2em;   
+  }
+  .toplogin{
+      text-align: right;
+      color: #FDF3FE;
+      margin-right: 1em;
+      grid-column: 2 / span 1;
+  }
+
+  .searchbar {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;     
+   }
+ .searchbox{
+  background-color: transparent;
+  text-align: center;
+  border: transparent;
+  color: #FDF3FE;
+  }
+.searchname {
+  text-align: center;
+  padding: 1em 0 0 1em;
+  align-items: stretch;
+  }
+.searchlocation {
+  flex-grow: 1 ;
+  padding: 1em 0 0 1em;
+  text-align: center;
+  }    
+
+input[type=text] {
+
+   background-color:var(--themecolor);
+   color: aliceblue;
+   line-height: 2em;
+   border: 2px;
+   padding: 0.5em;
+   height:2em;
+  }
+
+.searchbutton{
+  padding: 1em 0 0 1em;
+  text-align: center;
+  }
+::placeholder {
+    color: var(--body-bg-color);
+  } 
+
 }
 

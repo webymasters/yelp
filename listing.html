@@ -1,434 +1,489 @@
-
 <!DOCTYPE html>
 <!-- Website by Manpreet Singh -->
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yelp Homepage</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/listing.css">
-    <link rel="shortcut icon" href="images/yelplogo.png" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yelp Homepage</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/listing.css">
+  <link rel="shortcut icon" href="images/yelplogo.png" />
 </head>
+
 <body>
-  
-    <div class="cover">
-     <header class="header">
+
+  <div class="cover">
+    <header class="header">
       <section class="logo">
-        <a href="index.html"><img src="images/yelplogo.png" width=200px></a> 
-      </section> 
+        <a href="index.html"><img src="images/yelplogo.png" width=200px></a>
+      </section>
       <section class="searchbar">
-      <section class="searchname">
-      <div class="searchbox"> 
-       <input type=text size=35em name="SearchKeyword" placeholder="What you are looking for">
-      </div>
-      </section> 
-      <section class="searchlocation">
-        <div class="searchbox"> 
-        <input type=text size=35em name="SearchPlace" placeholder="At What Place">
+        <section class="searchname">
+          <div class="searchbox">
+            <input type=text size=35em name="SearchKeyword" placeholder="What you are looking for">
+          </div>
+        </section>
+        <section class="searchlocation">
+          <div class="searchbox">
+            <input type=text size=35em name="SearchPlace" placeholder="At What Place">
+          </div>
+        </section>
+        <div class="searchbutton">
+          <a href="#"> <img src="images/searchico.png" alt=""> </a>
         </div>
       </section>
-      <div class="searchbutton">
-       <a href="#"> <img src="images/searchico.png" alt=""> </a>
-      </div> 
-    </section>
-    <nav class="toplogin">
+      <nav class="toplogin">
         <ul>
           <li><a href="#">Login</a></li>
           <li class="button"><a href="#">Signup</a></li>
         </ul>
-      </nav>   
-    </header> 
-    </div> 
+      </nav>
+    </header>
+  </div>
 
-    <div class="container"> <!-- top to the cover-->
+  <div class="container">
+    <!-- top to the cover-->
     <main class="listmain">
       <div class="listview">
         <div class="cover">
-            <img src="images/listings/7.jpeg">
+          <img src="images/listings/7.jpeg">
         </div>
-        <div class="listtopview"> 
-       <div class="listinginfo">
-       <header>
-       <h1>Sunny Cafe</h1> 
-       </header>
-       <section class="listingreview">
-        <ul> 
-          <li>
-           <img src="images/star.png" width=10%>  
-          </li> 
-          <li>
-           <img src="images/star.png" width=10%>  
-          </li> 
-          <li>
-           <img src="images/star.png" width=10%>  
-          </li> 
-          <li>
-           <img src="images/star.png" width=10%>  
-          </li> 
-          <li>
-           <img src="images/star.png" width=10%>  
-          </li> 
-          <li class="reviewtext">
-            <p >721 people reviewed.<br/><a href="#reviews">Write a review</a> </p>
-          </li> 
-         </ul> 
-        </section>  
-        <section class="listviewcats">
-          <li><a href="#">#dietfood</a></li>
-          <li><a href="#">#cafes</a></li>
-        </section>  
+        <div class="listtopview">
+          <div class="listinginfo">
+            <header>
+              <h1>Sunny Cafe</h1>
+            </header>
+            <section class="listingreview">
+              <ul>
+                <li>
+                  <img src="images/star.png" width=10%>
+                </li>
+                <li>
+                  <img src="images/star.png" width=10%>
+                </li>
+                <li>
+                  <img src="images/star.png" width=10%>
+                </li>
+                <li>
+                  <img src="images/star.png" width=10%>
+                </li>
+                <li>
+                  <img src="images/star.png" width=10%>
+                </li>
+                <li class="reviewtext">
+                  <p>721 people reviewed.<br /><a href="#reviews">Write a review</a> </p>
+                </li>
+              </ul>
+            </section>
+            <section class="listviewcats">
+              <li><a href="#">#dietfood</a></li>
+              <li><a href="#">#cafes</a></li>
+            </section>
 
-        <section class="listviewbtns">
-            <li><input type=submit value="Check-in" class="checkinbtn"></li>
-            <li><input type=submit value="Add Photos" class="checkinbtn"></li>
-            <li><input type=submit value="share" class="checkinbtn"></li>
-        </section>   
-        
+            <section class="listviewbtns">
+              <li><input type=submit value="Check-in" class="checkinbtn"></li>
+              <li><input type=submit value="Add Photos" class="checkinbtn"></li>
+              <li><input type=submit value="share" class="checkinbtn"></li>
+            </section>
+
+          </div>
+          <section class="information">
+            <table class="info">
+              <tr>
+                <th colspan=2><a href="#">View Menu</a></th>
+              </tr>
+              <tr>
+                <th>Type</th>
+                <td>Dine-in,Homedelivery</td>
+              </tr>
+              <tr>
+                <th>Website</th>
+                <td><a href="http://sunnycafe.com">sunnycafe.com</a></td>
+              </tr>
+              <tr>
+                <th>Phone No</th>
+                <td><a href="tel:4373453803">+1 437 345 3803</a></td>
+              </tr>
+              <tr>
+                <th>Address</th>
+                <td>SCO 107,Toronto,ON</td>
+              </tr>
+              <tr>
+                <td class="greenbg">Open Now </td>
+                <td><a href="#"> Open Directions</a> </td>
+              </tr>
+              <tr>
+                <th>Current Offer</th>
+                <td class="greenbg">Buy 1 Get 1</td>
+              </tr>
+            </table>
+
+          </section>
         </div>
-        <section class="information">
-             <table class="info">
-                 <tr><th colspan=2><a href="#">View Menu</a></th></tr>
-                 <tr><th>Type</th><td>Dine-in,Homedelivery</td></tr>
-                 <tr><th>Website</th> <td><a href="http://sunnycafe.com">sunnycafe.com</a></td></tr>
-                 <tr><th>Phone No</th> <td><a href="tel:4373453803">+1 437 345 3803</a></td></tr>
-                 <tr><th>Address</th> <td>SCO 107,Toronto,ON</td></tr>
-                 <tr><td class="greenbg">Open Now </td><td><a href="#"> Open Directions</a> </td> </tr>
-                  <tr><th>Current Offer</th><td class="greenbg">Buy 1 Get 1</td> </tr>
-             </table>
-            
-        </section>
-    </div>
         <section class="content">
-            <h3>About Sunny Cafe</h3>
-            <p>
-             Enjoy Great Coffee & The Internet At Your Fingertips. Visit A Local Sunny Cafe. 
-             All Your Favourites. Handcrafted Recipes. Try Our Delicious Treats. Mornings Made Easier. 
-             New Cascara Latte. Breakfast at Sunny Cafe. Perfect Cup Every Time. Categories: Drinks, Food.
-            </p>
-            <p>
-                Sunny Cafe locations serve hot and cold drinks, whole-bean coffee, microground instant 
-                coffee known as VIA, espresso, caffe latte, full- and loose-leaf teas including Teavana 
-                tea products, Evolution Fresh juices, Frappuccino beverages, La Boulange pastries, 
-                and snacks including items such as chips and crackers; some offerings (including their 
-                annual fall launch of the Pumpkin Spice Latte) are seasonal or specific to the locality of 
-                the store. Many stores sell pre-packaged food items, hot and cold sandwiches, and drinkware 
-                including mugs and tumblers; select "Starbucks Evenings" locations offer beer, wine, and 
-                appetizers.Starbucks-brand coffee, ice cream, and bottled cold coffee drinks are also 
-                sold at grocery stores.
-            </p>
+          <h3>About Sunny Cafe</h3>
+          <p>
+            Enjoy Great Coffee & The Internet At Your Fingertips. Visit A Local Sunny Cafe.
+            All Your Favourites. Handcrafted Recipes. Try Our Delicious Treats. Mornings Made Easier.
+            New Cascara Latte. Breakfast at Sunny Cafe. Perfect Cup Every Time. Categories: Drinks, Food.
+          </p>
+          <p>
+            Sunny Cafe locations serve hot and cold drinks, whole-bean coffee, microground instant
+            coffee known as VIA, espresso, caffe latte, full- and loose-leaf teas including Teavana
+            tea products, Evolution Fresh juices, Frappuccino beverages, La Boulange pastries,
+            and snacks including items such as chips and crackers; some offerings (including their
+            annual fall launch of the Pumpkin Spice Latte) are seasonal or specific to the locality of
+            the store. Many stores sell pre-packaged food items, hot and cold sandwiches, and drinkware
+            including mugs and tumblers; select "Starbucks Evenings" locations offer beer, wine, and
+            appetizers.Starbucks-brand coffee, ice cream, and bottled cold coffee drinks are also
+            sold at grocery stores.
+          </p>
 
 
 
         </section>
 
-        <section class="reviews"  >
+        <section class="reviews">
           <div class="review">
-            <div class="avatar"><img src="images/avatar.png"></div>   
-            <div class="name"><h4>Manpreet Singh</h4></div>   
-            <div class="ratings"><section class="listingreview">
-                <ul> 
+            <div class="avatar"><img src="images/avatar.png"></div>
+            <div class="name">
+              <h4>Manpreet Singh</h4>
+            </div>
+            <div class="ratings">
+              <section class="listingreview">
+                <ul>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
-                  <li >
+                    <img src="images/star.png" width=10%>
+                  </li>
+                  <li>
                     <p class="reviewtext">Rated 5 stars </p>
-                  </li> 
-                 </ul> 
-                </section>  </div>   
+                  </li>
+                </ul>
+              </section>
+            </div>
             <div class="content">
-             My favorite pho in this area. My wife thinks the broth is too much cinnamon, but I'm a fan. I wish they had a spicy option. You can supplement for a spicy broth, I mean a dedicated dish. The pork subs are the best. Also very inexpensive.W
-             </div>
-          </div> 
-    
-          <div class="review">
-            <div class="avatar"><img src="images/avatar.png"></div>   
-            <div class="name"><h4>Saira</h4></div>   
-            <div class="ratings"><section class="listingreview">
-                <ul> 
-                  <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
-                  <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
-                  <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
-                  <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+              My favorite pho in this area. My wife thinks the broth is too much cinnamon, but I'm a fan. I wish they
+              had a spicy option. You can supplement for a spicy broth, I mean a dedicated dish. The pork subs are the
+              best. Also very inexpensive.W
+            </div>
+          </div>
 
-                  <li >
+          <div class="review">
+            <div class="avatar"><img src="images/avatar.png"></div>
+            <div class="name">
+              <h4>Saira</h4>
+            </div>
+            <div class="ratings">
+              <section class="listingreview">
+                <ul>
+                  <li>
+                    <img src="images/star.png" width=10%>
+                  </li>
+                  <li>
+                    <img src="images/star.png" width=10%>
+                  </li>
+                  <li>
+                    <img src="images/star.png" width=10%>
+                  </li>
+                  <li>
+                    <img src="images/star.png" width=10%>
+                  </li>
+
+                  <li>
                     <p class="reviewtext">Rated 4 stars </p>
-                  </li> 
-                 </ul> 
-                </section>  </div>   
+                  </li>
+                </ul>
+              </section>
+            </div>
             <div class="content">
-                Everything is infused with ginger everything taste clean, there's no fat on the beef which is good for my liking. The noodles are a little thick. broth and needs to have a little more flavour very natural tasting which is still good
-             </div>
-          </div> 
+              Everything is infused with ginger everything taste clean, there's no fat on the beef which is good for my
+              liking. The noodles are a little thick. broth and needs to have a little more flavour very natural tasting
+              which is still good
+            </div>
+          </div>
 
 
 
           <div class="review">
-            <div class="avatar"><img src="images/avatar.png"></div>   
-            <div class="name"><h4>Vicky</h4></div>   
-            <div class="ratings"><section class="listingreview">
-                <ul> 
+            <div class="avatar"><img src="images/avatar.png"></div>
+            <div class="name">
+              <h4>Vicky</h4>
+            </div>
+            <div class="ratings">
+              <section class="listingreview">
+                <ul>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
 
-                  </li> 
-                  <li >
+                  </li>
+                  <li>
                     <p class="reviewtext">Rated 3 stars </p>
-                  </li> 
-                 </ul> 
-                </section>  </div>   
+                  </li>
+                </ul>
+              </section>
+            </div>
             <div class="content">
-                Service was horrid... sugar cane juice was mixed with ton of water n no idea why lime is added?!.... asked them to cut the spring rolls n summer rolls in half since we are sharing and they say it'll break n they end up just bringing out a scissor to us.... banhmi sandwich barely has any fillings.
-             </div>
-          </div> 
+              Service was horrid... sugar cane juice was mixed with ton of water n no idea why lime is added?!.... asked
+              them to cut the spring rolls n summer rolls in half since we are sharing and they say it'll break n they
+              end up just bringing out a scissor to us.... banhmi sandwich barely has any fillings.
+            </div>
+          </div>
 
 
           <div class="review">
-            <div class="avatar"><img src="images/avatar.png"></div>   
-            <div class="name"><h4>Sunny Singh</h4></div>   
-            <div class="ratings"><section class="listingreview">
-                <ul> 
+            <div class="avatar"><img src="images/avatar.png"></div>
+            <div class="name">
+              <h4>Sunny Singh</h4>
+            </div>
+            <div class="ratings">
+              <section class="listingreview">
+                <ul>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
 
-                  <li >
+                  <li>
                     <p class="reviewtext">Rated 3 stars </p>
-                  </li> 
-                 </ul> 
-                </section>  </div>   
+                  </li>
+                </ul>
+              </section>
+            </div>
             <div class="content">
-             My favorite pho in this area. My wife thinks the broth is too much cinnamon, but I'm a fan. I wish they had a spicy option. You can supplement for a spicy broth, I mean a dedicated dish. The pork subs are the best. Also very inexpensive.W
-             </div>
-          </div> 
+              My favorite pho in this area. My wife thinks the broth is too much cinnamon, but I'm a fan. I wish they
+              had a spicy option. You can supplement for a spicy broth, I mean a dedicated dish. The pork subs are the
+              best. Also very inexpensive.W
+            </div>
+          </div>
 
 
           <div class="review">
-            <div class="avatar"><img src="images/avatar.png"></div>   
-            <div class="name"><h4>Simran</h4></div>   
-            <div class="ratings"><section class="listingreview">
-                <ul> 
+            <div class="avatar"><img src="images/avatar.png"></div>
+            <div class="name">
+              <h4>Simran</h4>
+            </div>
+            <div class="ratings">
+              <section class="listingreview">
+                <ul>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
                   <li>
-                   <img src="images/star.png" width=10%>  
-                  </li> 
+                    <img src="images/star.png" width=10%>
+                  </li>
 
-                  <li >
+                  <li>
                     <p class="reviewtext">Rated 4 stars </p>
-                  </li> 
-                 </ul> 
-                </section>  </div>   
+                  </li>
+                </ul>
+              </section>
+            </div>
             <div class="content" id="reviews">
-             My favorite pho in this area. My wife thinks the broth is too much cinnamon, but I'm a fan. I wish they had a spicy option. You can supplement for a spicy broth, I mean a dedicated dish. The pork subs are the best. Also very inexpensive.W
-             </div>
-          </div> 
+              My favorite pho in this area. My wife thinks the broth is too much cinnamon, but I'm a fan. I wish they
+              had a spicy option. You can supplement for a spicy broth, I mean a dedicated dish. The pork subs are the
+              best. Also very inexpensive.W
+            </div>
+          </div>
 
 
-         <h2>Write a review</h2>
-            <textarea></textarea>
-            <input type=submit value="Submit Review" class="checkinbtn">
+          <h2>Write a review</h2>
+          <textarea></textarea>
+          <input type=submit value="Submit Review" class="checkinbtn">
         </section>
-        
- 
+
+
       </div>
-     <div class="listmain"> 
-    <!-- Single Listing Box Ends  -->
-    <!-- Listings Heading  -->
-    <h2 class="listingbar listingsheading">More <a href="index.html">#cafes</a></h2>  
-    <!-- Single Listing Box Begins  -->
-    <article class="listings">
-      <section class="listingimage">
-      <a href="#">
-      <img src="images/listings/7.jpeg" width=100%>       
-      </a>  
-      </section>  
-      <section class="listingtitle">
-        <a href="#">
-        <h3>Healthy Wealthy Cafe</h3>  
-        </a>    
-      </section>  
-      <section class="listingreview">
-       <ul> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li >
-           <p class="reviewtext">721 people reviewed </p>
-         </li> 
-        </ul> 
-       </section>  
-       <section class="listingcategories">
-         <a href="">#dietfood</a> <a href="#">#cafes</a>    
-       </section>  
+      <div class="listmain">
+        <!-- Single Listing Box Ends  -->
+        <!-- Listings Heading  -->
+        <h2 class="listingbar listingsheading">More <a href="index.html">#cafes</a></h2>
+        <!-- Single Listing Box Begins  -->
+        <article class="listings">
+          <section class="listingimage">
+            <a href="#">
+              <img src="images/listings/7.jpeg" width=100%>
+            </a>
+          </section>
+          <section class="listingtitle">
+            <a href="#">
+              <h3>Healthy Wealthy Cafe</h3>
+            </a>
+          </section>
+          <section class="listingreview">
+            <ul>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <p class="reviewtext">721 people reviewed </p>
+              </li>
+            </ul>
+          </section>
+          <section class="listingcategories">
+            <a href="">#dietfood</a> <a href="#">#cafes</a>
+          </section>
 
-       <section class="listingbar">
-        1304 People Checked-in this week  
-       </section>  
-    </article>    
-    <!-- Single Listing Box Ends  -->
-    <!-- Single Listing Box Begins  -->
-    <article class="listings">
-      <section class="listingimage">
-      <a href="#">
-      <img src="images/listings/8.jpeg" width=100%>       
-      </a>  
-      </section>  
-      <section class="listingtitle">
-        <a href="#">
-        <h3>The Open Cafe</h3>  
-        </a>    
-      </section>  
-      <section class="listingreview">
-       <ul> 
-         <li>
-          <img src="images/star.png" >  
-         </li> 
-         <li>
-          <img src="images/star.png">  
-         </li> 
-         <li>
-          <img src="images/star.png">  
-         </li> 
-         <li>
-          <img src="images/star.png">  
-         </li> 
-         <li>
-          <img src="images/star.png">  
-         </li> 
-         <li >
-           <p class="reviewtext">571 people reviewed </p>
-         </li> 
-        </ul> 
-       </section>  
-       <section class="listingcategories">
-         <a href="">#bars</a> <a href="#">#pubs</a>    
-       </section>  
-       <section class="listingbar">
-        876 People Checked-in this week    
-       </section>  
-    </article>    
-    <!-- Single Listing Box Ends  -->
-    <!-- Single Listing Box Begins  -->
-    <article class="listings">
-      <section class="listingimage">
-      <a href="#">
-      <img src="images/listings/9.jpeg">       
-      </a>  
-      </section>  
-      <section class="listingtitle">
-        <a href="#">
-        <h3>Geeks Cafe</h3>  
-        </a>    
-      </section>  
-      <section class="listingreview">
-       <ul> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li>
-          <img src="images/star.png" width=10%>  
-         </li> 
-         <li >
-           <p class="reviewtext">491 people reviewed </p>
-         </li> 
-        </ul> 
-       </section>  
-       <section class="listingcategories">
-         <a href="">#cafes</a> <a href="#">#coffeeshops</a>    
-       </section>  
-       <section class="listingbar">
-        578 People Checked-in this week     
-       </section>  
-    </article>    
-    <!-- Single Listing Box Ends  -->
+          <section class="listingbar">
+            1304 People Checked-in this week
+          </section>
+        </article>
+        <!-- Single Listing Box Ends  -->
+        <!-- Single Listing Box Begins  -->
+        <article class="listings">
+          <section class="listingimage">
+            <a href="#">
+              <img src="images/listings/8.jpeg" width=100%>
+            </a>
+          </section>
+          <section class="listingtitle">
+            <a href="#">
+              <h3>The Open Cafe</h3>
+            </a>
+          </section>
+          <section class="listingreview">
+            <ul>
+              <li>
+                <img src="images/star.png">
+              </li>
+              <li>
+                <img src="images/star.png">
+              </li>
+              <li>
+                <img src="images/star.png">
+              </li>
+              <li>
+                <img src="images/star.png">
+              </li>
+              <li>
+                <img src="images/star.png">
+              </li>
+              <li>
+                <p class="reviewtext">571 people reviewed </p>
+              </li>
+            </ul>
+          </section>
+          <section class="listingcategories">
+            <a href="">#bars</a> <a href="#">#pubs</a>
+          </section>
+          <section class="listingbar">
+            876 People Checked-in this week
+          </section>
+        </article>
+        <!-- Single Listing Box Ends  -->
+        <!-- Single Listing Box Begins  -->
+        <article class="listings">
+          <section class="listingimage">
+            <a href="#">
+              <img src="images/listings/9.jpeg">
+            </a>
+          </section>
+          <section class="listingtitle">
+            <a href="#">
+              <h3>Geeks Cafe</h3>
+            </a>
+          </section>
+          <section class="listingreview">
+            <ul>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <img src="images/star.png" width=10%>
+              </li>
+              <li>
+                <p class="reviewtext">491 people reviewed </p>
+              </li>
+            </ul>
+          </section>
+          <section class="listingcategories">
+            <a href="">#cafes</a> <a href="#">#coffeeshops</a>
+          </section>
+          <section class="listingbar">
+            578 People Checked-in this week
+          </section>
+        </article>
+        <!-- Single Listing Box Ends  -->
 
-</div>  
+      </div>
     </main>
-</div>
-<section class="footer">
-   <div></div> 
-   <section class="socialmedia">
-     <li><a href="#"> <img src="images/fb.png"> </a> </li>
-     <li><a href="#"> <img src="images/insta.png"> </a> </li>
-     <li><a href="#"> <img src="images/twitter.png"> </a> </li>
-   </section>
-  <section class="footerlinks">
-    <li><a href="#">Privacy Policy</a> |  <li><a href="#"> Terms </a>|  <li><a href="#"> Contact </a>
-  </section>
-  <div></div> 
-  <section class="copyrights">
-    <img src="images/foot.png"><br/>
-    <em>All Copyrights Reserved By Yelp 2012-2020</em>
-  </section>
- 
-</section>
+  </div>
+  <section class="footer">
+    <div></div>
+    <section class="socialmedia">
+      <li><a href="#"> <img src="images/fb.png"> </a> </li>
+      <li><a href="#"> <img src="images/insta.png"> </a> </li>
+      <li><a href="#"> <img src="images/twitter.png"> </a> </li>
+    </section>
+    <section class="footerlinks">
+      <li><a href="#">Privacy Policy</a> |
+      <li><a href="#"> Terms </a>|
+      <li><a href="#"> Contact </a>
+    </section>
+    <div></div>
+    <section class="copyrights">
+      <img src="images/foot.png"><br />
+      <em>All Copyrights Reserved By Yelp 2012-2020</em>
+    </section>
 
- 
+  </section>
+
+
 </body>
+
 </html>
 
 

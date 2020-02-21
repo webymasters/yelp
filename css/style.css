@@ -23,14 +23,13 @@ body{
   }
 
 
-  
- .searchname {
+.searchname {
 
    text-align: right;
- 
    
  }
- .searchbox {
+
+.searchbox {
    border: 2px solid var(--themecolor);
    border-radius: 4px;
    display: inline-block;
@@ -38,46 +37,45 @@ body{
    color: black;
    padding: 0 0 0 1em;
  }
- .searchlocation {
+.searchlocation {
 
    text-align: left;
  
  }
- .searchname li{
+.searchname li{
    display: inline;
    padding: 0.5em;
   
  }
- .searchlocation li{
+.searchlocation li{
    display: inline;  
    padding: 0.5em; 
  }
-  .searchbutton {
+.searchbutton {
    line-height: 2;
    padding: 0.5em 0em 0em 0.5em;
    border: none;
    vertical-align:text-bottom;
-
    
  }
-  .searchbutton  img {
+.searchbutton  img {
    height: 2em;
   
  }
- .searchbutton a:hover img {
+.searchbutton a:hover img {
    background-color:tan;
    border-radius: 1em;
 
  }
 
- input[type=text] {
+input[type=text] {
    background-color: var(--body-bg-color);
    line-height: 3em;
    border: 0px;
    height: 3em;
 
  }
- .listingsheading{
+.listingsheading{
   text-align: center;
   color: var(--themecolor);
   grid-column: 1 / span 3;
@@ -163,8 +161,6 @@ body{
 
 
 
-/***/
-
 a{
   color: var(--themecolor);
   text-decoration: none;
@@ -180,7 +176,9 @@ h3{
 font-weight: normal;
 }
 
-  @media screen and (max-width:50em)
+
+
+@media screen and (max-width:50em)
 {
   .header{
     color:white;

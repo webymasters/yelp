@@ -140,6 +140,26 @@ body{
   align-self: end;
 }
 
+.offertextred
+{
+ text-align: center;
+ background-color: red;
+ color: antiquewhite;
+ padding: 1em;
+ width: fit-content;
+ border-radius: 1em;
+
+}
+.offertextgreen
+{
+ text-align: center;
+ background-color: green;
+ color: antiquewhite;
+ padding: 1em;
+ width: fit-content;
+ border-radius: 1em;
+
+}
 
 /***/
 

@@ -103,17 +103,21 @@
      
  }
  .reviewtext {
-    text-align: right;
+    text-align: left;
     font-size:0.7em;
+   
   
   }
   .listingreview ul{
   
     padding: 0em;
+    
   }
   .listingcategories{
     padding:0 0 0.5em 0.5em;
   }
+
+
 @media screen and (max-width:50em)
 {
     .homemain{

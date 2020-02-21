@@ -10,7 +10,7 @@
 .cover{
 
     height: 35em;
-    background-image:url("images/food.jpeg"), url("images/cvrvid.gif");
+    background-image:url("../images/food.jpeg"), url("../images/cvrvid.gif");
     background-size: cover; 
 }
 .toplinks{
